@@ -1,6 +1,5 @@
 body {
-     
-    font-family:  'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     background-color: white;
@@ -31,11 +30,6 @@ body {
   .header-content {
     display: flex;
     align-items: center;
-  }
-
-  .header-content .socials a{
-     position: relative;
-     font-size: 25px;
   }
 
   .header-img {
@@ -102,6 +96,14 @@ body {
     font-size: 20px;
   }
 
+  
+  .header a{
+    position: relative;
+    font-size: 25px;
+    margin-top: 50px;
+    
+  }
+
 
   ul {
     list-style: circle;
@@ -127,144 +129,7 @@ body {
     margin-right: 10px;
   }
 
-  /* Add CSS styles for the regular display */
-  a {
-   text-decoration: none;
-   color: #007bff;
-  }
-
-  a:hover {
-   text-decoration: underline;
-  }
-
-
-
-
  
-  /* To Make the Resume Content Smaller to be able to Print in a single page..! */
+ 
 
-  @media print {
-    body {
-      font-size: 12px;
-      /* To Print the First Page Only...! */
-      page-break-after: always; 
-    }
-
-    .header {
-      padding: 10px;
-    }
-
-    .header h1{
-      font-size: 26px;
-    }
-
-    .socials a{
-      font-size: 20px;
-    }
-
-
-    .header-content {
-      flex-direction: row;
-      align-items: center;
-    }
-
-    .header-img {
-      width: 130px;
-      height: 130px;
-      margin-right: 10px;
-      margin-bottom: 0;
-      padding: 0;
-    }
-
-    .container {
-      padding: 3px;
-    }
-
-    .sidebar {
-      margin-right: 10px;
-      border-right: 1px solid #ccc;
-    }
-
-    .section {
-      padding: 5px;
-    }
-
-    h2 {
-      font-size: 17px;
-    }
-
-    h3 {
-      font-size: 14px;
-    }
-
-    p {
-      font-size: 14px;
-    }
-
-    a{
-      display: none;
-    }
-
-    ul {
-      font-size: 14px;
-    }
-  }
-  @media (min-width: 360px) and (max-width: 787px) {
-  .header {
-    padding: 7px;
-    width: 100%;
-  }
-
-  .header h1 {
-    font-size: 18px;
-  }
-
-  .header p {
-    font-size: 7.9px;
-  }
-
-  .header-content .socials a {
-    font-size: 15px;
-  }
-
-  .header-img {
-    width: 80px;
-    height: 80px;
-  }
-
-  .container {
-    flex-direction: row;
-    width:100%;
-  }
-
-  .sidebar {
-    padding: 5px;
-    margin-right: 0;
-    border-right: none;
-  }
-
-  .main-content {
-    flex: 1;
-    padding: 10px;
-  }
-
-  .section {
-    padding: 5px;
-  }
-
-  h2 {
-    font-size: 15px;
-  }
-
-  h3 {
-    font-size: 13px;
-  }
-
-  p {
-    font-size: 11px;
-  }
-
-  ul {
-    font-size: 11px;
-  }
-}
+  
