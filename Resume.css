@@ -209,7 +209,7 @@ body {
       font-size: 14px;
     }
   }
-   @media print, (max-width: 768px) {
+   @media, (min-width:360px, max-width: 768px) {
   body {
     font-size: 12px;
     /* To Print the First Page Only...! */
