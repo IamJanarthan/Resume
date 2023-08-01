@@ -130,6 +130,10 @@ body {
   }
 
  
- 
+ a{
+  text-decoration: underline;
+  color: #313131;
+ }
+
 
   
